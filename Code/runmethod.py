@@ -12,6 +12,7 @@ def logmean_centering(data):
 	b = lx-a
 	N_data = b
 	return N_data
+N_data = logmean_centering(data)
 
 #separate data base condition
 k1 = N_data.iloc[:,0:10].values
