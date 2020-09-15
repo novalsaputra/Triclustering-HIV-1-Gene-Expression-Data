@@ -1,0 +1,2 @@
+Tricluster  1
+ multiple deletion 0 - single deletion 0 - node additon 0 multiple deletion 1 - single deletion 0 - node additon 0 multiple deletion 2 - single deletion 0 - node additon 0 multiple deletion 3 - single deletion 0 - node additon 0 multiple deletion 4 - single deletion 0 - node additon 0 multiple deletion 5 - single deletion 0 - node additon 0 multiple deletion 6 - single deletion 0 - node additon 0 multiple deletion 7 - single deletion 0 - node additon 0
