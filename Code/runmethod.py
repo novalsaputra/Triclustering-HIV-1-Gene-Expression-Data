@@ -29,7 +29,7 @@ dt=float(sys.argv[1])
 lm=float(sys.argv[2])
 #method
 a = DeltaTrimax(D)
-g,k,w, msr, tqi = a.fit(dt,lm,n_triclusters=10)
+g,k,w, msr, tqi = a.fit(dt,lm,n_triclusters=0)
 #save output
 np.savetxt("gen.txt",g,fmt="%0.f")
 np.savetxt("kondisi.txt",k,fmt="%0.f")
