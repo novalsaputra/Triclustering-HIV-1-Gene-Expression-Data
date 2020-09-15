@@ -8,10 +8,11 @@ git config --global user.name "novalsaputra"
 git pull origin master
 
 cd Output
-rm -rf
 folder=$delta-$lambda
+rm -rf $folder
 mkdir $folder
 
+cd..
 mv gen.txt Output/$folder/gen.txt
 mv kondisi.txt Output/$folder/kondisi.txt
 mv waktu.txt Output/$folder/waktu.txt
