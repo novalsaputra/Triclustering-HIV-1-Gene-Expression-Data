@@ -26,7 +26,7 @@ D = np.array([k1,k2,k3,k4])
 
 #variavel
 dt=float(sys.argv[1])
-lm=float(Sys.argv[2])
+lm=float(sys.argv[2])
 #method
 a = DeltaTrimax(D)
 ga,ka,wa, msra, tqi = a.fit(dt,lm,n_triclusters=0)
