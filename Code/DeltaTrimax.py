@@ -269,6 +269,7 @@ class DeltaTrimax():
       	x,y,z = m.shape
       	v = x*y*z
       	tqi = msr/v
+        tqi = np.array([tqi])
       	return tqi
             
 
