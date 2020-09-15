@@ -1,6 +1,7 @@
 from DeltaTrimax import DeltaTrimax
 import numpy as np
 import pandas as pd
+import sys
 
 #import data
 data = pd.read_csv("Data/data.xls",index_col=0)
