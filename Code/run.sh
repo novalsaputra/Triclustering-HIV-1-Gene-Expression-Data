@@ -21,6 +21,6 @@ mv tqi.txt Output/$folder/tqi.txt
 mv ket.txt Output/$folder/ket.txt
 
 git add .
-git commit -m 'add'
+git commit -m 'add $folder' 
 git push origin master
 
