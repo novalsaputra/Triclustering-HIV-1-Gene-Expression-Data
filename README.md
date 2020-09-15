@@ -1,1 +1,1 @@
-## Analisis Triclustering on HIV-1 Gene Expression Data
+## Analisys Triclustering on HIV-1 Gene Expression Data

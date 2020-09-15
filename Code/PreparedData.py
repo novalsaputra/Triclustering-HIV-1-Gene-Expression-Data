@@ -3,7 +3,7 @@ import numpy as np
 
 class PreparedData():
 	def data():
-		data = pd.read_csv("../Data/data.xls",index_col=0)
+		data = pd.read_csv("Data/data.xls",index_col=0)
 		return data
 
 	#Normalisasi Logmean-Centerin
