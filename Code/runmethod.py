@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 #import data
-data = pd.read_csv("../Data/data.xls",index_col=0)
+data = pd.read_csv("Data/data.xls",index_col=0)
 
 #normalization
 def logmean_centering(data):
