@@ -1,7 +1,7 @@
 delta=$1
 lambda=$2
 
-python3 Code/runmethod.py $delta $lambda | tee ket1.txt
+python3 Code/runmethod.py $delta $lambda | tee ket.txt
 
 git config --global user.email "noval.saputra@sci.ui.ac.id"
 git config --global user.name "novalsaputra"
